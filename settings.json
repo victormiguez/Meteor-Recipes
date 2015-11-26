@@ -1,0 +1,12 @@
+{
+  "public": {
+    "ga": {
+      "account": "UX-XXXXX-X"
+    }
+  },
+  "private": {
+    "mandrill": {
+      "apiKey": "IWGJB$PO2fu809PIJ"
+    }
+  }
+}
