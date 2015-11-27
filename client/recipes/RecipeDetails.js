@@ -1,7 +1,9 @@
+
 Template.RecipeDetails.onCreated(function () {
   let self = this;
   self.autorun(() => {
-    self.subscribe('recipes', Meteor.userId());
+    let recipeId = FlowRouter.getParam('id');
+    self.subscribe('singleRecipe', recipeId);
   });
 });
 
