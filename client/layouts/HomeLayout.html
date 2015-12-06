@@ -1,5 +1,8 @@
 <template name="HomeLayout">
   {{> Header}}
+  {{#if currentUser}}
+    {{> SideNav}}
+  {{/if}}
   <main>
     <div class="billboard">
       <h2>Organize Your Meals</h2>
